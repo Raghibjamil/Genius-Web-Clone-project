@@ -5,6 +5,9 @@ CSS Reset======
 *, ::after,::before{
     box-sizing: border-box;
 }
+/* *{
+    outline: 1px solid red;
+} */
 body{
     margin: 0px;
     padding: 0px;
@@ -112,6 +115,10 @@ header form{
 
 }
 
+.mobileButtons{
+    display: none;
+}
+
 /* 
 ========== Sub - header ==========
 */
@@ -122,6 +129,7 @@ header form{
 
     font-weight: 500;
     padding: 1rem 0px;
+    text-align: center;
 
 }
 .SubHeader>*{
@@ -601,6 +609,7 @@ Small News Section
     row-gap: 4rem;
     border-top: 0.15rem solid rgb(42, 42, 42);
     padding-top: 3rem;
+    flex-wrap: wrap;
    
 }
 .footer-bottom-sub-container{
@@ -638,5 +647,6 @@ Small News Section
 column-gap: 0.7rem;
 }
 .bottom-foot-link{
-    column-gap: 0.7rem;   
+    column-gap: 0.7rem;  
+    margin-top: 0.5rem; 
 }
